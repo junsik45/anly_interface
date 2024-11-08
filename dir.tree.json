@@ -1,0 +1,12 @@
+{
+    "root": {
+        "animal": {
+            "cats": {},
+            "dogs": {}
+        },
+        "plant": {
+            "garlic": {}
+        }
+    }
+}
+

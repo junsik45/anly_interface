@@ -1,0 +1,12 @@
+{
+    "root": {
+        "Pion": {
+            "tmin": 3,
+            "tmax": 25
+        },
+        "Proton": {
+            "garlic": 3.14,
+            "flower": "rose"
+        }
+    }
+}

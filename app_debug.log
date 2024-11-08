@@ -1,0 +1,261 @@
+2024-11-08 02:20:23,703 - DEBUG - Starting event loop 'SelectEventLoop' to manage display.
+2024-11-08 02:20:23,705 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:20:23,705 - DEBUG - No input in timeout, calling scheduled <bound method MainLoop.entering_idle of <urwid.event_loop.main_loop.MainLoop object at 0x7f5dbee0aab0>>
+2024-11-08 02:20:23,705 - DEBUG - Screen size recalculated: (161, 51)
+2024-11-08 02:20:23,706 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:20:23,707 - DEBUG - Processing input
+2024-11-08 02:20:23,707 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:20:23,707 - DEBUG - No input, entering IDLE
+2024-11-08 02:20:23,707 - DEBUG - Processing input
+2024-11-08 02:20:23,707 - DEBUG - Waiting for input: timeout
+2024-11-08 02:20:25,083 - DEBUG - Processing input
+2024-11-08 02:20:25,084 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:20:25,084 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:20:25,084 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:20:25,085 - DEBUG - Decoded codes: ['a'], raw codes: [97]
+2024-11-08 02:20:25,085 - DEBUG - Processing input: keys=['a']
+2024-11-08 02:20:25,085 - DEBUG - Key pressed: a
+2024-11-08 02:20:25,085 - DEBUG - Initiate Add Key called
+2024-11-08 02:20:25,087 - DEBUG - Set edit_type to add_choice
+2024-11-08 02:20:25,088 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:20:25,088 - DEBUG - No input, entering IDLE
+2024-11-08 02:20:25,089 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:20:25,090 - DEBUG - Processing input
+2024-11-08 02:20:25,090 - DEBUG - Waiting for input: timeout
+2024-11-08 02:20:26,071 - DEBUG - Processing input
+2024-11-08 02:20:26,071 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:20:26,071 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:20:26,072 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:20:26,072 - DEBUG - Decoded codes: ['d'], raw codes: [100]
+2024-11-08 02:20:26,072 - DEBUG - Processing input: keys=['d']
+2024-11-08 02:20:26,072 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:20:26,072 - DEBUG - No input, entering IDLE
+2024-11-08 02:20:26,073 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:20:26,074 - DEBUG - Processing input
+2024-11-08 02:20:26,074 - DEBUG - Waiting for input: timeout
+2024-11-08 02:20:26,160 - DEBUG - Processing input
+2024-11-08 02:20:26,160 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:20:26,160 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:20:26,160 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:20:26,160 - DEBUG - Decoded codes: ['enter'], raw codes: [10]
+2024-11-08 02:20:26,160 - DEBUG - Processing input: keys=['enter']
+2024-11-08 02:20:26,160 - DEBUG - Key pressed: enter
+2024-11-08 02:20:26,160 - DEBUG - Currently editing: add_choice
+2024-11-08 02:20:26,160 - DEBUG - Initiate Add Name called with choice: d
+2024-11-08 02:20:26,161 - DEBUG - Set edit_type to add_name and adding_type to d
+2024-11-08 02:20:26,161 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:20:26,161 - DEBUG - No input, entering IDLE
+2024-11-08 02:20:26,164 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:20:26,164 - DEBUG - Processing input
+2024-11-08 02:20:26,164 - DEBUG - Waiting for input: timeout
+2024-11-08 02:20:27,587 - DEBUG - Processing input
+2024-11-08 02:20:27,587 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:20:27,588 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:20:27,588 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:20:27,589 - DEBUG - Decoded codes: ['x'], raw codes: [120]
+2024-11-08 02:20:27,589 - DEBUG - Processing input: keys=['x']
+2024-11-08 02:20:27,590 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:20:27,590 - DEBUG - No input, entering IDLE
+2024-11-08 02:20:27,591 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:20:27,592 - DEBUG - Processing input
+2024-11-08 02:20:27,592 - DEBUG - Waiting for input: timeout
+2024-11-08 02:20:27,776 - DEBUG - Processing input
+2024-11-08 02:20:27,776 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:20:27,776 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:20:27,776 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:20:27,776 - DEBUG - Decoded codes: ['x'], raw codes: [120]
+2024-11-08 02:20:27,776 - DEBUG - Processing input: keys=['x']
+2024-11-08 02:20:27,777 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:20:27,778 - DEBUG - No input, entering IDLE
+2024-11-08 02:20:27,779 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:20:27,780 - DEBUG - Processing input
+2024-11-08 02:20:27,780 - DEBUG - Waiting for input: timeout
+2024-11-08 02:20:27,932 - DEBUG - Processing input
+2024-11-08 02:20:27,932 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:20:27,933 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:20:27,933 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:20:27,933 - DEBUG - Decoded codes: ['x'], raw codes: [120]
+2024-11-08 02:20:27,933 - DEBUG - Processing input: keys=['x']
+2024-11-08 02:20:27,934 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:20:27,935 - DEBUG - No input, entering IDLE
+2024-11-08 02:20:27,937 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:20:27,937 - DEBUG - Processing input
+2024-11-08 02:20:27,938 - DEBUG - Waiting for input: timeout
+2024-11-08 02:20:28,113 - DEBUG - Processing input
+2024-11-08 02:20:28,113 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:20:28,113 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:20:28,113 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:20:28,113 - DEBUG - Decoded codes: ['enter'], raw codes: [10]
+2024-11-08 02:20:28,113 - DEBUG - Processing input: keys=['enter']
+2024-11-08 02:20:28,115 - DEBUG - Key pressed: enter
+2024-11-08 02:20:28,115 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:20:28,115 - DEBUG - No input, entering IDLE
+2024-11-08 02:20:28,116 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:20:28,116 - DEBUG - Processing input
+2024-11-08 02:20:28,116 - DEBUG - Waiting for input: timeout
+2024-11-08 02:20:30,403 - DEBUG - Processing input
+2024-11-08 02:20:30,403 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:20:30,403 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:20:30,403 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:20:30,404 - DEBUG - Decoded codes: ['q'], raw codes: [113]
+2024-11-08 02:20:30,404 - DEBUG - Processing input: keys=['q']
+2024-11-08 02:20:30,404 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:20:30,404 - DEBUG - No input, entering IDLE
+2024-11-08 02:20:30,405 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:20:30,405 - DEBUG - Processing input
+2024-11-08 02:20:30,405 - DEBUG - Waiting for input: timeout
+2024-11-08 02:20:31,202 - DEBUG - Processing input
+2024-11-08 02:20:31,202 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:20:31,202 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:20:31,203 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:20:31,203 - DEBUG - Decoded codes: ['backspace'], raw codes: [127]
+2024-11-08 02:20:31,203 - DEBUG - Processing input: keys=['backspace']
+2024-11-08 02:20:31,204 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:20:31,204 - DEBUG - No input, entering IDLE
+2024-11-08 02:20:31,205 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:20:31,206 - DEBUG - Processing input
+2024-11-08 02:20:31,206 - DEBUG - Waiting for input: timeout
+2024-11-08 02:20:31,782 - DEBUG - Processing input
+2024-11-08 02:20:31,782 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:20:31,783 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:20:31,783 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:20:31,783 - DEBUG - Decoded codes: [], raw codes: []
+2024-11-08 02:20:31,783 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:20:31,784 - DEBUG - No input, entering IDLE
+2024-11-08 02:20:31,784 - DEBUG - Processing input
+2024-11-08 02:20:31,784 - DEBUG - Waiting for input: timeout=0.12432408332824707
+2024-11-08 02:20:31,910 - DEBUG - No input in timeout, calling scheduled <function Screen.parse_input.<locals>._parse_incomplete_input at 0x7f5dbee56480>
+2024-11-08 02:20:31,910 - DEBUG - Decoded codes: ['esc'], raw codes: [27]
+2024-11-08 02:20:31,910 - DEBUG - Processing input: keys=['esc']
+2024-11-08 02:20:31,911 - DEBUG - Key pressed: esc
+2024-11-08 02:28:00,422 - DEBUG - Starting event loop 'SelectEventLoop' to manage display.
+2024-11-08 02:28:00,423 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:28:00,423 - DEBUG - No input in timeout, calling scheduled <bound method MainLoop.entering_idle of <urwid.event_loop.main_loop.MainLoop object at 0x7f941cfb0c80>>
+2024-11-08 02:28:00,423 - DEBUG - Screen size recalculated: (161, 51)
+2024-11-08 02:28:00,424 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:28:00,424 - DEBUG - Processing input
+2024-11-08 02:28:00,424 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:28:00,424 - DEBUG - No input, entering IDLE
+2024-11-08 02:28:00,424 - DEBUG - Processing input
+2024-11-08 02:28:00,424 - DEBUG - Waiting for input: timeout
+2024-11-08 02:28:04,894 - DEBUG - Processing input
+2024-11-08 02:28:04,896 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:28:04,900 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:28:04,901 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:28:04,901 - DEBUG - Decoded codes: ['a'], raw codes: [97]
+2024-11-08 02:28:04,901 - DEBUG - Processing input: keys=['a']
+2024-11-08 02:28:04,901 - DEBUG - Key pressed: a
+2024-11-08 02:28:04,901 - DEBUG - Initiate Add Key called
+2024-11-08 02:28:04,904 - DEBUG - Set edit_type to add_choice
+2024-11-08 02:28:04,904 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:28:04,904 - DEBUG - No input, entering IDLE
+2024-11-08 02:28:04,906 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:28:04,907 - DEBUG - Processing input
+2024-11-08 02:28:04,907 - DEBUG - Waiting for input: timeout
+2024-11-08 02:28:05,754 - DEBUG - Processing input
+2024-11-08 02:28:05,754 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:28:05,754 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:28:05,754 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:28:05,754 - DEBUG - Decoded codes: ['d'], raw codes: [100]
+2024-11-08 02:28:05,754 - DEBUG - Processing input: keys=['d']
+2024-11-08 02:28:05,755 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:28:05,755 - DEBUG - No input, entering IDLE
+2024-11-08 02:28:05,756 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:28:05,756 - DEBUG - Processing input
+2024-11-08 02:28:05,757 - DEBUG - Waiting for input: timeout
+2024-11-08 02:28:05,797 - DEBUG - Processing input
+2024-11-08 02:28:05,797 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:28:05,797 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:28:05,797 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:28:05,797 - DEBUG - Decoded codes: ['enter'], raw codes: [10]
+2024-11-08 02:28:05,797 - DEBUG - Processing input: keys=['enter']
+2024-11-08 02:28:05,798 - DEBUG - Key pressed: enter
+2024-11-08 02:28:05,798 - DEBUG - Currently editing: add_choice
+2024-11-08 02:28:05,798 - DEBUG - Initiate Add Name called with choice: d
+2024-11-08 02:28:05,799 - DEBUG - Set edit_type to add_name and adding_type to d
+2024-11-08 02:28:05,799 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:28:05,799 - DEBUG - No input, entering IDLE
+2024-11-08 02:28:05,803 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:28:05,803 - DEBUG - Processing input
+2024-11-08 02:28:05,804 - DEBUG - Waiting for input: timeout
+2024-11-08 02:28:06,936 - DEBUG - Processing input
+2024-11-08 02:28:06,936 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:28:06,936 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:28:06,936 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:28:06,936 - DEBUG - Decoded codes: ['x'], raw codes: [120]
+2024-11-08 02:28:06,937 - DEBUG - Processing input: keys=['x']
+2024-11-08 02:28:06,937 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:28:06,937 - DEBUG - No input, entering IDLE
+2024-11-08 02:28:06,938 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:28:06,939 - DEBUG - Processing input
+2024-11-08 02:28:06,939 - DEBUG - Waiting for input: timeout
+2024-11-08 02:28:07,116 - DEBUG - Processing input
+2024-11-08 02:28:07,116 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:28:07,116 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:28:07,117 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:28:07,117 - DEBUG - Decoded codes: ['x'], raw codes: [120]
+2024-11-08 02:28:07,117 - DEBUG - Processing input: keys=['x']
+2024-11-08 02:28:07,117 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:28:07,117 - DEBUG - No input, entering IDLE
+2024-11-08 02:28:07,118 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:28:07,118 - DEBUG - Processing input
+2024-11-08 02:28:07,118 - DEBUG - Waiting for input: timeout
+2024-11-08 02:28:07,263 - DEBUG - Processing input
+2024-11-08 02:28:07,263 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:28:07,263 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:28:07,263 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:28:07,264 - DEBUG - Decoded codes: ['x'], raw codes: [120]
+2024-11-08 02:28:07,264 - DEBUG - Processing input: keys=['x']
+2024-11-08 02:28:07,264 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:28:07,265 - DEBUG - No input, entering IDLE
+2024-11-08 02:28:07,265 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:28:07,265 - DEBUG - Processing input
+2024-11-08 02:28:07,265 - DEBUG - Waiting for input: timeout
+2024-11-08 02:28:07,382 - DEBUG - Processing input
+2024-11-08 02:28:07,382 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:28:07,382 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:28:07,382 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:28:07,382 - DEBUG - Decoded codes: ['enter'], raw codes: [10]
+2024-11-08 02:28:07,382 - DEBUG - Processing input: keys=['enter']
+2024-11-08 02:28:07,383 - DEBUG - Key pressed: enter
+2024-11-08 02:28:07,383 - DEBUG - Currently main: enter
+2024-11-08 02:28:07,383 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:28:07,383 - DEBUG - No input, entering IDLE
+2024-11-08 02:28:07,384 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:28:07,384 - DEBUG - Processing input
+2024-11-08 02:28:07,384 - DEBUG - Waiting for input: timeout
+2024-11-08 02:28:10,218 - DEBUG - Processing input
+2024-11-08 02:28:10,218 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:28:10,218 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:28:10,218 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:28:10,218 - DEBUG - Decoded codes: ['q'], raw codes: [113]
+2024-11-08 02:28:10,218 - DEBUG - Processing input: keys=['q']
+2024-11-08 02:28:10,219 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:28:10,219 - DEBUG - No input, entering IDLE
+2024-11-08 02:28:10,220 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:28:10,220 - DEBUG - Processing input
+2024-11-08 02:28:10,220 - DEBUG - Waiting for input: timeout
+2024-11-08 02:28:11,039 - DEBUG - Processing input
+2024-11-08 02:28:11,039 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:28:11,039 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:28:11,039 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:28:11,039 - DEBUG - Decoded codes: ['backspace'], raw codes: [127]
+2024-11-08 02:28:11,039 - DEBUG - Processing input: keys=['backspace']
+2024-11-08 02:28:11,040 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:28:11,040 - DEBUG - No input, entering IDLE
+2024-11-08 02:28:11,041 - DEBUG - Drawing screen with size (161, 51)
+2024-11-08 02:28:11,041 - DEBUG - Processing input
+2024-11-08 02:28:11,041 - DEBUG - Waiting for input: timeout
+2024-11-08 02:28:11,908 - DEBUG - Processing input
+2024-11-08 02:28:11,908 - DEBUG - Calling callback for "watch file"
+2024-11-08 02:28:11,908 - DEBUG - Waiting for input: descriptors=[<socket.socket fd=4, family=1, type=1, proto=0>, <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>], timeout=0
+2024-11-08 02:28:11,908 - DEBUG - Input ready: [(SelectorKey(fileobj=<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>, fd=0, events=1, data=None), 1)]
+2024-11-08 02:28:11,909 - DEBUG - Decoded codes: [], raw codes: []
+2024-11-08 02:28:11,909 - DEBUG - Waiting for input: timeout=0.0
+2024-11-08 02:28:11,909 - DEBUG - No input, entering IDLE
+2024-11-08 02:28:11,909 - DEBUG - Processing input
+2024-11-08 02:28:11,910 - DEBUG - Waiting for input: timeout=0.12447476387023926
+2024-11-08 02:28:12,035 - DEBUG - No input in timeout, calling scheduled <function Screen.parse_input.<locals>._parse_incomplete_input at 0x7f941cdc6480>
+2024-11-08 02:28:12,036 - DEBUG - Decoded codes: ['esc'], raw codes: [27]
+2024-11-08 02:28:12,036 - DEBUG - Processing input: keys=['esc']
+2024-11-08 02:28:12,036 - DEBUG - Key pressed: esc
