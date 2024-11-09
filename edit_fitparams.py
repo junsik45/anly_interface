@@ -39,7 +39,7 @@ class DirectoryExplorer:
     def __init__(self, directory_tree, json_file):
         self.directory_tree = directory_tree
         self.json_file = json_file  # To save changes
-        self.current_path = ['']
+        self.current_path = ['fit_ranges']
         self.current_dir = self.get_current_dir()
         self.history = []  # To keep track of navigation history
         self.editing = False  # Flag to indicate if editing is active
@@ -77,23 +77,27 @@ class DirectoryExplorer:
         # Create a list of selectable items with icons and color coding
         items = []
         for folder in contents:
-            value = self.current_dir[folder]
-            if isinstance(value, dict):
-                if value:
-                    # Directory with contents
-                    icon = "[D] "
-                else:
-                    # Empty Directory
-                    icon = "[D] "
-                text = icon + folder
-                attr = 'dir'
+            if folder == "(Empty)":
+                text = folder
+                items.append(urwid.AttrMap(urwid.SelectableIcon(text, 0), None, focus_map='reversed'))
             else:
-                # Data node
-                icon = "[F] "
-                text = icon + folder + f" = {value}"
-                attr = 'file'
+                value = self.current_dir[folder]
+                if isinstance(value, dict):
+                    if value:
+                        # Directory with contents
+                        icon = "[D] "
+                    else:
+                        # Empty Directory
+                        icon = "[D] "
+                    text = icon + folder
+                    attr = 'dir'
+                else:
+                    # Data node
+                    icon = "[F] "
+                    text = icon + folder + f" = {value}"
+                    attr = 'file'
 
-            items.append(urwid.AttrMap(urwid.SelectableIcon(text, 0), attr, focus_map='reversed'))
+                items.append(urwid.AttrMap(urwid.SelectableIcon(text, 0), attr, focus_map='reversed'))
 
         # Update the listbox
         self.listbox.body = urwid.SimpleFocusListWalker(items)
@@ -296,10 +300,14 @@ class DirectoryExplorer:
                 if self.history:
                     self.current_path = self.history.pop()
                     self.update_directory_view()
-
-            else:
+            elif key in ['up','down']:
                 # Handle navigation keys (up/down)
                 self.listbox.keypress((0,), key)
+
+            else:
+                # Unexpected key press
+                self.show_message(f"Unexpected key: {key}")
+                logging.warning("Unexpected key pressed: %s", key)
 
     def initiate_delete_key(self, selected):
         # Determine if the selected item is a directory or data node
@@ -655,8 +663,8 @@ class DirectoryExplorer:
         self.loop.run()
 
 def main():
-    directory_tree = load_directory_tree('directory_tree.json')
-    explorer = DirectoryExplorer(directory_tree, 'directory_tree.json')
+    directory_tree = load_directory_tree('a09m135.json')
+    explorer = DirectoryExplorer(directory_tree, 'a09m135.json')
     explorer.run()
 
 if __name__ == "__main__":

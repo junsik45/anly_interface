@@ -1,0 +1,63 @@
+{
+    "fit_ranges": {
+        "Pion": {
+            "_1": {
+                "SS": {
+                    "HPo": {
+                        "1state": {
+                            "tmin": 15,
+                            "tmax": 31
+                        },
+                        "2state": {
+                            "tmin": 5,
+                            "tmax": 31
+                        }
+                    },
+                    "ALL": {
+                        "1state": {
+                            "tmin": 15,
+                            "tmax": 31
+                        },
+                        "2state": {
+                            "tmin": 5,
+                            "tmax": 31
+                        },
+                        "3state": {
+                            "tmin": 2,
+                            "tmax": 31
+                        }
+                    }
+                },
+                "SP": {
+                    "HPo": {
+                        "1state": {
+                            "tmin": 15,
+                            "tmax": 31
+                        },
+                        "2state": {
+                            "tmin": 5,
+                            "tmax": 31
+                        }
+                    },
+                    "ALL": {
+                        "1state": {
+                            "tmin": 15,
+                            "tmax": 31
+                        },
+                        "2state": {
+                            "tmin": 5,
+                            "tmax": 31
+                        },
+                        "3state": {
+                            "tmin": 2,
+                            "tmax": 31
+                        }
+                    }
+                }
+            },
+            "_2": {}
+        },
+        "Kaon": {},
+        "Pion_ss": {}
+    }
+}
