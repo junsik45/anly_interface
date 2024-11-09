@@ -1,15 +1,14 @@
 import urwid
 import json
-
+import sys
 import logging
 
 logging.basicConfig(
     filename='app_debug.log',  # Log file name
-    filemode='a',               # Append mode
+    filemode='w',               # Append mode
     level=logging.DEBUG,        # Log level
     format='%(asctime)s - %(levelname)s - %(message)s'  # Log format
 )
-
 
 def load_directory_tree(json_file):
     with open(json_file, 'r') as f:
@@ -40,7 +39,7 @@ class DirectoryExplorer:
     def __init__(self, directory_tree, json_file):
         self.directory_tree = directory_tree
         self.json_file = json_file  # To save changes
-        self.current_path = ['root']
+        self.current_path = ['']
         self.current_dir = self.get_current_dir()
         self.history = []  # To keep track of navigation history
         self.editing = False  # Flag to indicate if editing is active
@@ -106,13 +105,11 @@ class DirectoryExplorer:
                 if key == 'enter':
                     choice = self.add_choice_edit.get_edit_text().strip().lower()
                     if choice in ('d', 'f'):
-                        self.editing = False
-                        self.edit_type = None
                         self.initiate_add_name(choice)
                     else:
                         self.show_message("Invalid choice. Press 'd' for directory or 'f' for file.")
-                    self.editing = False
-                    self.edit_type = None
+                    # self.editing = False
+                    # self.edit_type = None
                     return  # Prevent further processing
                 elif key == 'esc':
                     # Cancel adding
@@ -241,7 +238,7 @@ class DirectoryExplorer:
                 raise urwid.ExitMainLoop()
 
             elif key == 'enter':
-                logging.debug("Currently main: %s"%(key))
+                logging.debug("Currently main: %s, %r"%(key, self.editing))
                 focus_widget, focus_position = self.listbox.get_focus()
                 if focus_widget is None:
                     return
@@ -528,6 +525,8 @@ class DirectoryExplorer:
         self.edit_type = 'add_name'
         self.adding_type = choice  # Store the type ('d' or 'f')
         logging.debug("Set edit_type to %s and adding_type to %s"%(self.edit_type, self.adding_type))
+        logging.debug("Overlay set; editing should still be True: %s" % self.editing)
+
 
     def apply_add_key(self, new_name, item_type):
         # Validate the new name
